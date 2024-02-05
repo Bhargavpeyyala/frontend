@@ -1,0 +1,156 @@
+body{
+    background-image: url(./anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg);
+  
+   background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+   
+}
+.logo{
+    margin:0px;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+nav{
+ justify-content: space-between;
+ align-items: end;
+ padding-left: 800px;
+ padding-right: 40px;
+}
+nav a{
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color:black;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:cursive;
+    display: inline-block;
+}
+nav a:hover{
+    color: whitesmoke;
+    transition: 0.5s;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: -100px 0px 150px 150px;
+    margin: -100px 100px 0px 100px;
+}
+.wrapper{
+       position: relative;
+       width: 550px;
+       height: 400px;
+       margin-top: 100px;
+       margin-left: -185px;
+       background: transparent;
+       border: none;
+       border-radius: 20px;
+       backdrop-filter: blur(2px) brightness(80%);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color:rgb(252, 252, 252);
+    
+}
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.input-box label{
+    position: relative;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+input:focus~label,
+input:valid~label{
+    top: -5px;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    padding: 0px 35px 0px 5px;
+    color: #fff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    font-size: 1.5em;
+    top: 20px;
+
+}
+.remember-me{
+   margin: -10px 0 17px;
+   font-size: 0.9em;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+}
+.remember-me label input{
+    margin-right: 3px ;
+}
+.remember-me a{
+    color: #fffdfd;
+    text-decoration:none ;
+}
+.remember-me a:hover{
+    text-decoration: underline;
+}
+button{
+    width:100% ;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+   font-size: 1em;
+   font-weight: 600;
+}
+.account{
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.account p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.account p a:hover{
+    text-decoration: underline;
+}
+
+@media screen  and (max-width: 480px) {
+ .wrapper{
+    width: 100%;
+    border-radius: 0px;
+ }   
+} 
